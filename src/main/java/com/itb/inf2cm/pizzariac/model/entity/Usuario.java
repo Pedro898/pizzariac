@@ -13,6 +13,7 @@ public class Usuario {
     private String cidade;
     private String cpf;
     private String uf;
+    private String tipoUsuario;
     private boolean codStatus;
 
     public Long getId() {
@@ -89,6 +90,14 @@ public class Usuario {
 
     public String getCpf() {
         return cpf;
+    }
+
+    public String getTipoUsuario() {
+        return tipoUsuario;
+    }
+
+    public void setTipoUsuario(String tipoUsuario) {
+        this.tipoUsuario = tipoUsuario;
     }
 
     public void setCpf(String cpf) {

@@ -4,7 +4,7 @@ public class Produto {
 
     private Long id;
     private String nome;
-    private String descricao;
+    private String tipo;
     private double valorCompra;
     private double valorVenda;
     private int quantidadeEstoque;
@@ -64,5 +64,13 @@ public class Produto {
 
     public void setCodStatus(boolean codStatus) {
         this.codStatus = codStatus;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
